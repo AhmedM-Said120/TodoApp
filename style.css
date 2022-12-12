@@ -1,0 +1,78 @@
+body{
+    display: grid;
+    height: 100vh;
+    align-items: center;
+    margin: 0%;
+}
+*{
+    box-sizing: border-box;
+}
+.all{
+    height: 100%;
+    background: radial-gradient(circle at 10% 20%, rgb(69, 86, 102) 0%, rgb(34, 34, 34) 90%);
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+}
+div {
+    width: 70%;
+    margin: auto;
+    
+}ul{
+    width: 70%;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+}
+.frist{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 11px 68px #000000d6, -1px 0px 15px #222121;
+    padding: 5px;
+    border-radius: 10px;
+}
+input{
+    width: 70%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: transparent;
+    box-shadow: 0 11px 68px #31396ed6, -1px 0px 15px #222121;
+    outline: none;
+    color: #03a9f4;
+}
+button{
+    padding: 10px 20px;
+    color: white ;
+    background: #03a9f4 ;
+    border: 0 ;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 19%;
+}
+li{
+    margin-top: 30px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    box-shadow: 0 11px 68px #000000d6, -1px 0px 15px #222121;
+    padding: 5px;
+}
+li input{
+    width: 48%;
+
+}
+li span{
+    width: 48%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: transparent;
+    outline: none;
+    color: white;
+    display: inline-flex;
+}
+.anotherclass{
+    display: none;
+}
